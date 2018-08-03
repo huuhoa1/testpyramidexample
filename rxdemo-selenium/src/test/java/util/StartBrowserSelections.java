@@ -14,13 +14,18 @@ public class StartBrowserSelections {
     {
 
         List<Object[]> retVal = new ArrayList<Object[]>();
-        retVal.add( new Object[]
+        /* retVal.add( new Object[]
                 {
 
                         "Chrome", RxConstants.SELENIUM_SERVER_FOR_L_CHROME,
                         DesiredCapabilities.chrome(), inItems
-                });
+                }); */
+        retVal.add( new Object[]
+                {
 
+                        "Firefox", RxConstants.SELENIUM_SERVER_FOR_L_CHROME,
+                        DesiredCapabilities.firefox(), inItems
+                });
         return retVal;
 
     }
