@@ -8,8 +8,7 @@ public class RxConstants {
     public static final String RX_BASE_URL = "localhost:8080/rxdemo";
     //public static final String RX_BASE_URL = "localhost:9000";
 
-    //public static final String SELENIUM_SERVER_FOR_L_CHROME = "localhost";
-    public static final String SELENIUM_SERVER_FOR_L_CHROME = "10.8.53.79";
+    public static final String SELENIUM_SERVER_FOR_L_CHROME = "localhost";
 
     public static final String H1_TITLE_RX_DEMO = "/html/body/div/h1";
     public static final String H1_TITLE_RX_DEMO_TEXT = "Rx Demo";
